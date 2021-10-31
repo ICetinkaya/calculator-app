@@ -7,6 +7,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Body from './components/Body';
+import ColorComponent from './components/ColorComponent';
 
 
 function App() {
@@ -15,12 +16,17 @@ function App() {
   const handleSearch = event=>setSearch(event.target.value);
   let user ="ICetinkaya"
   return (
+      
       <Fragment>
+       
         <Header>
         </Header>
+        <ColorComponent/>
         <Body />
         <Footer></Footer>
+        
       </Fragment>
+
   );
     
   
